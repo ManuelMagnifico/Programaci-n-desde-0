@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body { 
+    background-color:lightsalmon;
+    color: blue;
+}
+
+h1{
+    text-align: center;
+    color: azure;
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+h2{
+    background-color: darksalmon;
+    text-align: center;
+    background-color: antiquewhite;
+    color: rgb(226, 70, 43);
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.parrafo{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.boton{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.parrafo2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.columnas{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.columnas .contenedor{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: brown;
+    border: solid;
+    border-color: white;
+    margin: 10px;
+}
+
+.columnas .contenedor h6{
+    font-size: large;
+    color: lightpink
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    width: 25%;
+    height: 25%;
+}
+.imagen{
+    text-align: center;
+    margin-top: 30px;
+}
+
+header{
+    background-color: lightcyan;
+    color: lightcoral;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav a {
+    color: blueviolet
+    text-decoration: none;
+    padding: 5px;
+  }
+  nav a:hover {
+    color: lightpink;
+  }
+
+  .mensaje{
+    background-color: lightblue;
+    color: rgb(147, 80, 255);
+    font-size:30px;
+    height: 200px;
+  }
+
+  .youtube{
+    text-align: center;
+  }
+
+  @media (max-width: 780px){
+    body{
+        background-color: lightyellow;
+    }
+  }
+
+  @media (min-width: 1100px){
+    body{
+        background-color: rgb(225, 107, 154);
+    }
+  }
